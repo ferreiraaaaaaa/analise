@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formulario</h1>
+
+<form action="cliente.php" method="post">
+<label for="nome">nome:</label>
+<input type="text" id="nome" name="nome" required>
+
+<label for="senha">Senha:</label>
+<input type="password" id="senha" name="senha" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="telefone">Telefone:</label>
+<input type="tel" id="telefone" name="telefone" required>
+
+<label for="endereco">Endereço:</label>
+<input type="text" id="endereco" name="endereco" required>
+
+<label for="cidade">Ciadade:</label>
+<input type="text" id="cidade" name="cidade" required>
+
+<label for="estado">Estado:</label>
+<select id="estado" name="estado" required>
+    <option value="" disabled selected >selecione o estado</option>
+    <option value="PR">Paraná</option>
+
+
+</select>
+    </form>
+</body>
+</html>
